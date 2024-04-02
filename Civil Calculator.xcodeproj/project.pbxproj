@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D414000B2A905A47006D5EF4 /* Civil_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414000A2A905A47006D5EF4 /* Civil_CalculatorApp.swift */; };
+		D414000D2A905A47006D5EF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414000C2A905A47006D5EF4 /* ContentView.swift */; };
+		D414000F2A905A48006D5EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D414000E2A905A48006D5EF4 /* Assets.xcassets */; };
+		D41400122A905A48006D5EF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41400112A905A48006D5EF4 /* Preview Assets.xcassets */; };
+		D424DBD62AB67EA4009E2CE0 /* Excavation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424DBD52AB67EA4009E2CE0 /* Excavation.swift */; };
+		D424DBD92AB6840F009E2CE0 /* ExcavationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D424DBD82AB6840F009E2CE0 /* ExcavationCard.swift */; };
+		D44568A42AEB4F15003C5238 /* PipeGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44568A32AEB4F15003C5238 /* PipeGradeView.swift */; };
+		D452B0C32AB7A61000E41F1E /* ExcavatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0C22AB7A61000E41F1E /* ExcavatingView.swift */; };
+		D452B0C62AB7A8CA00E41F1E /* TopsoilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0C52AB7A8CA00E41F1E /* TopsoilView.swift */; };
+		D452B0C82AB7C23700E41F1E /* Pit1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0C72AB7C23700E41F1E /* Pit1View.swift */; };
+		D452B0CA2AB7C24100E41F1E /* Pit2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0C92AB7C24100E41F1E /* Pit2View.swift */; };
+		D452B0CC2AB7C26200E41F1E /* Trench1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0CB2AB7C26200E41F1E /* Trench1View.swift */; };
+		D452B0CE2AB7C27B00E41F1E /* Trench2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0CD2AB7C27B00E41F1E /* Trench2View.swift */; };
+		D452B0D02AB7C29400E41F1E /* Trench3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452B0CF2AB7C29400E41F1E /* Trench3View.swift */; };
+		D48F2C0F2AED9B5600A4C2BC /* HaulDirtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F2C0E2AED9B5600A4C2BC /* HaulDirtView.swift */; };
+		D48F2C132AED9BE500A4C2BC /* ProductivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F2C122AED9BE500A4C2BC /* ProductivityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D41400072A905A47006D5EF4 /* Civil Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Civil Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D414000A2A905A47006D5EF4 /* Civil_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civil_CalculatorApp.swift; sourceTree = "<group>"; };
+		D414000C2A905A47006D5EF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D414000E2A905A48006D5EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D41400112A905A48006D5EF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D424DBD52AB67EA4009E2CE0 /* Excavation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excavation.swift; sourceTree = "<group>"; };
+		D424DBD82AB6840F009E2CE0 /* ExcavationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcavationCard.swift; sourceTree = "<group>"; };
+		D44568A32AEB4F15003C5238 /* PipeGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeGradeView.swift; sourceTree = "<group>"; };
+		D452B0C22AB7A61000E41F1E /* ExcavatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcavatingView.swift; sourceTree = "<group>"; };
+		D452B0C52AB7A8CA00E41F1E /* TopsoilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopsoilView.swift; sourceTree = "<group>"; };
+		D452B0C72AB7C23700E41F1E /* Pit1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pit1View.swift; sourceTree = "<group>"; };
+		D452B0C92AB7C24100E41F1E /* Pit2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pit2View.swift; sourceTree = "<group>"; };
+		D452B0CB2AB7C26200E41F1E /* Trench1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trench1View.swift; sourceTree = "<group>"; };
+		D452B0CD2AB7C27B00E41F1E /* Trench2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trench2View.swift; sourceTree = "<group>"; };
+		D452B0CF2AB7C29400E41F1E /* Trench3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trench3View.swift; sourceTree = "<group>"; };
+		D48F2C0E2AED9B5600A4C2BC /* HaulDirtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaulDirtView.swift; sourceTree = "<group>"; };
+		D48F2C122AED9BE500A4C2BC /* ProductivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41400042A905A47006D5EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41400082A905A47006D5EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41400072A905A47006D5EF4 /* Civil Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41400092A905A47006D5EF4 /* Civil Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D48D98262AA64C12007A5873 /* Views */,
+				D424DBD72AB683F3009E2CE0 /* Components */,
+				D424DBD22AB67E0D009E2CE0 /* Models */,
+				D414000E2A905A48006D5EF4 /* Assets.xcassets */,
+				D41400102A905A48006D5EF4 /* Preview Content */,
+			);
+			path = "Civil Calculator";
+			sourceTree = "<group>";
+		};
+		D41400102A905A48006D5EF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D41400112A905A48006D5EF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D414FFFE2A905A47006D5EF4 = {
+			isa = PBXGroup;
+			children = (
+				D41400092A905A47006D5EF4 /* Civil Calculator */,
+				D41400082A905A47006D5EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D424DBD22AB67E0D009E2CE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D424DBD52AB67EA4009E2CE0 /* Excavation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D424DBD72AB683F3009E2CE0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D424DBD82AB6840F009E2CE0 /* ExcavationCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D44568A22AEB4EF2003C5238 /* Pipe Grade Views */ = {
+			isa = PBXGroup;
+			children = (
+				D44568A32AEB4F15003C5238 /* PipeGradeView.swift */,
+			);
+			path = "Pipe Grade Views";
+			sourceTree = "<group>";
+		};
+		D452B0C42AB7A8A800E41F1E /* Excavating Views */ = {
+			isa = PBXGroup;
+			children = (
+				D452B0C22AB7A61000E41F1E /* ExcavatingView.swift */,
+				D452B0C52AB7A8CA00E41F1E /* TopsoilView.swift */,
+				D452B0C72AB7C23700E41F1E /* Pit1View.swift */,
+				D452B0C92AB7C24100E41F1E /* Pit2View.swift */,
+				D452B0CB2AB7C26200E41F1E /* Trench1View.swift */,
+				D452B0CD2AB7C27B00E41F1E /* Trench2View.swift */,
+				D452B0CF2AB7C29400E41F1E /* Trench3View.swift */,
+			);
+			path = "Excavating Views";
+			sourceTree = "<group>";
+		};
+		D48D98262AA64C12007A5873 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D414000A2A905A47006D5EF4 /* Civil_CalculatorApp.swift */,
+				D414000C2A905A47006D5EF4 /* ContentView.swift */,
+				D44568A22AEB4EF2003C5238 /* Pipe Grade Views */,
+				D452B0C42AB7A8A800E41F1E /* Excavating Views */,
+				D48F2C0D2AED9B1200A4C2BC /* Haul Dirt Views */,
+				D48F2C112AED9BBD00A4C2BC /* Productivity */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D48F2C0D2AED9B1200A4C2BC /* Haul Dirt Views */ = {
+			isa = PBXGroup;
+			children = (
+				D48F2C0E2AED9B5600A4C2BC /* HaulDirtView.swift */,
+			);
+			path = "Haul Dirt Views";
+			sourceTree = "<group>";
+		};
+		D48F2C112AED9BBD00A4C2BC /* Productivity */ = {
+			isa = PBXGroup;
+			children = (
+				D48F2C122AED9BE500A4C2BC /* ProductivityView.swift */,
+			);
+			path = Productivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41400062A905A47006D5EF4 /* Civil Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41400152A905A48006D5EF4 /* Build configuration list for PBXNativeTarget "Civil Calculator" */;
+			buildPhases = (
+				D41400032A905A47006D5EF4 /* Sources */,
+				D41400042A905A47006D5EF4 /* Frameworks */,
+				D41400052A905A47006D5EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Civil Calculator";
+			productName = "Civil Calculator";
+			productReference = D41400072A905A47006D5EF4 /* Civil Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D414FFFF2A905A47006D5EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D41400062A905A47006D5EF4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D41400022A905A47006D5EF4 /* Build configuration list for PBXProject "Civil Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D414FFFE2A905A47006D5EF4;
+			productRefGroup = D41400082A905A47006D5EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41400062A905A47006D5EF4 /* Civil Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41400052A905A47006D5EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41400122A905A48006D5EF4 /* Preview Assets.xcassets in Resources */,
+				D414000F2A905A48006D5EF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41400032A905A47006D5EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D452B0C82AB7C23700E41F1E /* Pit1View.swift in Sources */,
+				D414000D2A905A47006D5EF4 /* ContentView.swift in Sources */,
+				D44568A42AEB4F15003C5238 /* PipeGradeView.swift in Sources */,
+				D452B0C32AB7A61000E41F1E /* ExcavatingView.swift in Sources */,
+				D48F2C132AED9BE500A4C2BC /* ProductivityView.swift in Sources */,
+				D452B0CE2AB7C27B00E41F1E /* Trench2View.swift in Sources */,
+				D452B0CA2AB7C24100E41F1E /* Pit2View.swift in Sources */,
+				D48F2C0F2AED9B5600A4C2BC /* HaulDirtView.swift in Sources */,
+				D414000B2A905A47006D5EF4 /* Civil_CalculatorApp.swift in Sources */,
+				D452B0D02AB7C29400E41F1E /* Trench3View.swift in Sources */,
+				D452B0C62AB7A8CA00E41F1E /* TopsoilView.swift in Sources */,
+				D452B0CC2AB7C26200E41F1E /* Trench1View.swift in Sources */,
+				D424DBD62AB67EA4009E2CE0 /* Excavation.swift in Sources */,
+				D424DBD92AB6840F009E2CE0 /* ExcavationCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D41400132A905A48006D5EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D41400142A905A48006D5EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D41400162A905A48006D5EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Civil Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 44665M2V32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielMiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D41400172A905A48006D5EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Civil Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 44665M2V32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielMiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41400022A905A47006D5EF4 /* Build configuration list for PBXProject "Civil Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41400132A905A48006D5EF4 /* Debug */,
+				D41400142A905A48006D5EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41400152A905A48006D5EF4 /* Build configuration list for PBXNativeTarget "Civil Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41400162A905A48006D5EF4 /* Debug */,
+				D41400172A905A48006D5EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D414FFFF2A905A47006D5EF4 /* Project object */;
+}
